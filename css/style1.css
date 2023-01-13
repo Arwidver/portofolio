@@ -1,0 +1,30 @@
+
+    #time {
+      float: right;
+      font-size: 30px;
+      margin: 10px;
+      font-family: "kelly slab";
+      margin-right: 20px;
+      font-weight: bold;
+    }
+    @media only screen and (max-width: 800px) {
+      #greet {
+        visibility: hidden;
+      }
+      #time {
+        margin: auto;
+        font-family: "kelly slab";
+      }
+    }
+    #greet {
+      font-size: 25px;
+      font-family: audiowide;
+      position: absolute;
+      left: 50%;
+      top: 2%;
+      font-weight: bold;
+    }
+    #header1{
+      height:90px;
+      width: 90px;
+    }
